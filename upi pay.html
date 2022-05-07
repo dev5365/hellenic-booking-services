@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BHIM UPI PAYMENT</title>
+    <link rel="icon" type="image/x-icon" href="logo1.png">
+</head>
+<style>
+    body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 38px;
+    padding: 8px;
+    font-size: 17px;
+    background-color: turquoise;
+    
+    }
+    .heading{
+    text-align: center;
+    font-weight: 900;
+    font-size: 2rem;
+    color: black;
+   
+    }
+    .d1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: rgb(202, 70, 70);
+   
+    }
+    .d2{
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    padding: 5vh 2vw 5vh 4vw;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    width: 40vw;
+    position: relative;
+    display: inline-block;
+    left:25vw ;
+    }
+    input[type="submit"]{
+    background-color: #4daea4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 7vh;
+    width: 100%;
+    padding: 4px;
+    border-radius: 4px;
+    
+}
+input[type="submit"]:hover{
+    background-color: #4caf84;
+}
+input[type="email"]{
+    width: 70%;
+    padding: 4px;
+    border-radius: 4px;
+}
+@media only screen and (max-width: 724px) {
+
+    .d2{
+        width: 50vw;
+        left: 20vw;
+    }
+}
+@media only screen and (max-width: 479px) {
+
+.d2{
+    width: 55vw;
+    left: 10vw;
+}
+}
+</style>
+<body>
+    <div class="heading">
+        <h1>BHIM UPI PAYMENT</h1>
+    </div>
+    <div class="d1">
+        <h4>Enter your UPI ID and refer to your payment partner</h4>
+    </div>
+    <div class="d2">
+        <form action="payment_succesful.html">
+            Enter UPI ID:&nbsp;<input type="email" id="upi_id" required placeholder="ex-9510867671111@paytm">
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Pay">
+        </form>
+    </div>
+</body>
+</html>

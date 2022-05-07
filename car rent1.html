@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Booking </title>
+    <link rel="stylesheet" href="car_form.css">
+    <link rel="icon" type="image/x-icon" href="logo1.png">
+     
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="car.mp4" type="video/mp4">
+        
+      </video>
+   
+   
+    <div class="content">
+        
+        
+
+        <form class="form-group" action="self drive cars.html">
+            <h1 class="text-center">Car Booking </h1>
+
+            <div id="form">
+                <h3 class="text-white">Booking Details</h3>
+
+            <div id="input">
+               
+                <select  id="input-group" style="background: black" required>
+                    <option value="">City</option>
+                    <option value="chandigarh">CHANDIGARH</option>
+                    
+                </select> 
+                
+                
+                <input type="date" id="input-group" class="date1" placeholder="Departure Date" required style="background-color: white; color: tomato;">
+                <input type="text" id="input-group" placeholder="location" required>
+                <input type="number" id="input-group" placeholder="No. of Days" required  min="1" max="10">
+               
+            </div>
+
+               
+               
+                <div id="button">
+                <button type="submit" class="btn btn-warning text-white">SEARCH</button>
+                <button type="reset" class="btn btn-primary">REST</button>
+                </div>
+
+        </form>
+
+    </div>
+    <script src="train.js">
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+footer{
+    background-color: black; color: blanchedalmond;
+    display: inline-block;
+    width: 100%;
+    z-index: 1;
+    
+}
+p.rtl {
+    direction: rtl;
+}
+footer a:hover{
+    color: yellow;
+}
+input[type="submit"]{
+    background-color: crimson; color: wheat; padding: 15px; border-color: violet; border-radius: 10px;
+}
+input[type="submit"]:hover{
+        background-color: chartreuse; color: chocolate; cursor: pointer; 
+}
+del{
+    color: crimson;
+}
+fieldset:hover{
+    border-color: red;
+}
+div u{
+    font-size: 40px; font-style: oblique;
+}
+div b{
+    color: red;
+}
+div u {
+    color: coral;
+}
+body{
+    background-color: #5cdb95;
+}
+fieldset{
+    background-color: #175594bd; color: white;
+    
+    
+}

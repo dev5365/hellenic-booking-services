@@ -1,0 +1,97 @@
+.top-image{
+    background-image: url('t1.jpg');
+    width: 100%;
+    height: 70vh;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    /*padding: 0px;
+    margin: 0px;*/
+}
+.detail{
+    position:absolute;
+    z-index: 1;
+    display: flex;
+    background-color: white;
+    left: 24vw;
+    top:60vh ;
+    width: 46vw;
+    height: 30vh;
+}
+
+
+.detail table th{
+    background-color: rgb(28, 97, 224);
+    color: cornsilk;
+    font-size: 2rem;
+    
+}
+.detail table form{
+    text-align: center;
+   
+    
+    
+    
+}
+input[type="submit"]{
+    background-color: crimson; color: wheat; padding: 20px; border-color: violet; border-radius: 10px;
+}
+input[type="submit"]:hover{
+    background-color: chartreuse; color: chocolate; cursor: pointer; 
+}
+.detail{
+    border-radius: 10px;
+    background-color:rgb(236, 196, 85);
+    
+}
+.down{
+    display: inline-block;
+}
+table{
+    display: flex;
+    
+}
+.d1{
+    font-size: 4rem ;
+    
+} 
+.d2{
+display: inline-block;
+width: 45vw;
+}
+.d3{
+    display: inline-block;
+    width: 45vw;
+}
+.d4{
+    display: inline-block;
+    width: 45vw;
+}
+.d5{
+    display: inline-block;
+    width: 45vw;
+}
+p.rtl {
+    direction: rtl;
+}
+footer a:hover{
+    color: yellow;
+}
+footer{
+    background-color: black; color: blanchedalmond;
+}
+input:focus{
+    background-color: yellow;
+}
+select:hover{
+    border-color: red;border-width: 5px;
+}
+b{
+    font-size: 2rem;
+    color: white;
+}
+
+
+

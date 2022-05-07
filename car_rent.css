@@ -1,0 +1,120 @@
+.heading{
+    text-align: center;
+    font-weight: 900;
+    font-size: 4rem;
+    /*background-image: url("car rent.jpg");*/
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    position:absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    color: rgb(241, 76, 76);
+}
+.f1{
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    height: 80%;
+    width: 40%;
+    border: 1px solid white;
+    background-color:rgba(0, 0, 0, 0.801);
+    left: 0vw;
+    font-size: 17px;
+    font-weight: 500;
+    bottom: 90vh;
+    border-radius: 15px;
+    color: white;
+    
+}
+.f2{
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: turquoise;
+    width:100%;
+    height: 20%;
+    text-align: center;
+    padding-top: 3vh;
+    color: white;
+
+}
+input[type="submit"]{
+    background-color: #4daea4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: #4caf84;
+}
+form{
+    padding: 15px 20px 15px 20px;
+}
+input[type="text"],input[type="number"],input[type="date"],select{
+    width: 100%;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 458px) {
+    .heading{
+       
+    
+    }
+    .f1{
+        
+        width: 60%;
+    }
+    
+
+}
+@media only screen and (min-width: 316px) {
+
+    .f1{
+        height: 78%;
+        width: 55%;
+        bottom: 83vh;
+    }
+}
+@media only screen and (min-width: 650px) {
+    .f1{
+        height: 55%;
+        width: 40%;
+        bottom: 50vh;
+    }
+    .f2{
+        width:100%;
+        height: 15%;
+        text-align: center;
+        padding-top: 1vh;
+    }
+    
+}
+@media only screen and (min-width: 651px) {
+    .f1{
+        height: 75%;
+        width: 57%;
+        bottom: 80vh;
+    }
+}
+@media only screen and (min-width: 798px) {
+    .f1{
+        height: 75%;
+        width: 47%;
+        bottom: 80vh;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .f1{
+        height: 75%;
+        width: 50%;
+        bottom: 90vh;
+    }
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo1.png">
+    <link rel="stylesheet" href="FORM1.css">
+    <title> BOOKING FORM</title>
+
+</head>
+<body>
+    <div class="heading">
+        <h1>BOOKING INFORMATION</h1>
+    </div>
+    <hr>
+    <div class="f1">
+    <form action="payment mode.html">
+        <p>BOOKING TYPE:</p>
+        <p>NAME:<input type="text" id="name" placeholder="enter your full name" required></p>
+        <fieldset>
+            <legend>gender</legend>
+            <p>
+                male <input type="radio" name="gender" id="male" required> female<input type="radio" name="gender" id="female" required> other<input type="radio" name="gender" id="other" required>
+            </p>
+        </fieldset>
+        <p>AGE:<input type="number" id="age" placeholder="enter your age" required min="1"></p>
+        <p>MOBILE NUMBER:<input type="tel" id="MOBILENO" required pattern="[0-9]{10}" maxlength="10" minlength="10" placeholder="enter 10 digit mobile number"></p>
+        <P>EMAIL ID:<input type="email" id="email" required placeholder="enter your email"></P>
+        <p>ID PROOF:<select name="id_type" class="id_type" required>
+            <option  value="">-->select id proof--></option>
+            <option value="AADHAR_CARD">AADHAR CARD</option>
+            </select></p>
+        <P>ID PROOF NUMBER:<input type="text" id="id" required maxlength="12" minlength="12" pattern="[0-9]{12}"></P>
+        <P>VACCINATION STATUS:<input type="radio" id="1dose" name="v" >1st DOSE ONLY <input type="radio" id="both" name="v"> FULLY VACCINATED <input type="radio" id="none" name="v"> NOT VACCINATED</P>
+        <p>UPLOAD VACCINATION CERTIFICATE:<input type="file"></p>
+        <p><input type="reset" value="reset" id="reset">
+        <input type="submit" value="submit" id="submit"></p>
+    </form>
+    </div>
+</body>
+</html>

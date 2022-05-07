@@ -1,0 +1,136 @@
+.top-image{
+    background-image: url('airmain.jpg');
+    width: 100%;
+    height: 70vh;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+.detail{
+    position:absolute;
+    z-index: 1;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color:white;
+    left: 24vw;
+    top:67vh ;
+    width: 59.5%;
+    height: 10%;
+    border: 2px solid black;
+    
+}
+.top0{
+    position:absolute;
+    z-index: 1;
+    display: inline-block;
+    left: 24vw;
+    top:63vh ;
+    width: 60%;
+    height: 13%;
+
+}
+.top1{
+    
+  
+    border: 1px solid black;
+    height: 5vh;
+    width: 12vw;
+    padding: 2%;
+   
+}
+.top2{
+    
+   
+    border: 1px solid black;
+    height: 5vh;
+    width: 12vw;
+    padding: 2%;
+   
+}
+.top3{
+    
+   
+    border: 1px solid black;
+    height: 5vh;
+    width: 15vw;
+    padding: 2%;
+  
+}
+.top4{
+   
+    
+
+   padding-left: 3%;
+   
+}
+    
+
+input[type="submit"]{
+    background-color: crimson; color: wheat; padding: 20px; border-color: violet; border-radius: 10px;
+}
+input[type="submit"]:hover{
+    background-color: chartreuse; color: chocolate; cursor: pointer; 
+}
+input:focus{
+    background-color: yellow;
+}
+select:hover{
+    border-color: red;border-width: 5px;
+}
+p.rtl {
+    direction: rtl;
+}
+footer a:hover{
+    color: yellow;
+}
+footer{
+    background-color: black; color: blanchedalmond;
+}
+.down{
+    display: inline-block;
+}
+
+.d1{
+    font-size: 4rem ;
+    
+    
+} 
+.d2{
+display: inline-block;
+width: 45vw;
+}
+.d3{
+    display: inline-block;
+    width: 45vw;
+}
+.d4{
+    display: inline-block;
+    width: 45vw;
+}
+.d5{
+    display: inline-block;
+    width: 45vw;
+}
+b{
+    font-size: 2rem;
+    color: white;
+}
+/*@media only screen and (max-width: 1236px) {
+    .detail{
+        position:absolute;
+        z-index: 1;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        background-color: white;
+        left: 24vw;
+        top:67vh ;
+        width: auto;
+        height: auto;
+        border: 2px solid black;
+        
+    }
+  }*/

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Booking </title>
+    <link rel="stylesheet" href="train_form.css">
+     
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="filterchoice.js">
+
+</script>
+</head>
+<link rel="icon" type="image/x-icon" href="logo1.png">
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="train.mp4" type="video/mp4">
+        
+      </video>
+   
+   
+    <div class="content">
+        
+        
+
+        <form class="form-group" action="train action.html">
+            <h1 class="text-center">Train Booking </h1>
+
+            <div id="form">
+                <h3 class="text-white">Booking Details</h3>
+
+            <div id="input">
+               
+                <select  id="input-group" class="main_menu" style="background: black;" required>
+                    <option value="">From</option>
+                        <option value="MUMBAI">MUMBAI</option>
+                        <option value="DELHI">DELHI</option>
+                        <option value="CHANDIGARH">CHANDIGARH</option>
+                        
+                </select> 
+                <select  id="input-group" class="sub_menu" style="background: black;" required>
+                    <option value="">To</option>
+                        <option value="MUMBAI">MUMBAI</option>
+                        <option value="DELHI">DELHI</option>
+                        <option value="CHANDIGARH">CHANDIGARH</option>
+                        
+                </select>
+                
+                <input type="date" id="input-group" class="date1" placeholder="Departure Date" style="background-color: white; color: tomato;" required>
+               
+                <!--<select  id="input-group" style="background: black;">
+                    <option value="">Preffered Class</option>
+                    <option value="">Sleeper Class</option>
+                    <option value="">AC Chair car</option>
+                    <option value="">First Class</option>
+                </select>-->
+                
+                </div>
+
+                <!--<div id="input2">
+                    <input type="number" id="input-group" placeholder="Adult" required min="1">
+                    <input type="number" id="input-group" placeholder="Children(2-11years)" min="0">
+                    <input type="number" id="input-group" placeholder="infant(under 2years)" min="0">
+                </div>-->
+                <div id="button">
+                <button type="submit" class="btn btn-warning text-white">SEARCH</button>
+                <button type="reset" class="btn btn-primary">RESET</button>
+                </div>
+
+        </form>
+
+    </div>
+    <script src="train.js">
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

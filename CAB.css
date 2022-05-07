@@ -1,0 +1,167 @@
+.top-image{
+    /*background-image: url('cab6.jpg');*/
+    
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 10px;
+    
+}
+.main{
+    /*background-image: url('gps3.jpg');*/
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+    
+}
+.box{
+    box-sizing: border-box;
+    width: 40vw;
+    height: 80vh;
+    border: 2px solid white;
+    background-color:rgba(255, 99, 71, 0.562);
+
+    color: white;
+    display: block;
+    position: relative;
+    border-radius: 15px;
+    left: 30vw;
+    bottom: 70vh;
+    
+}
+.box1{
+    text-align: center;
+    background-color: turquoise;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+   
+}
+input[type="text"],input[type="time"],input[type="date"],select{
+    width: 80%;
+    padding: 4px;
+    border-radius: 4px;
+}
+input[type="submit"]:hover{
+    background-color: #4caf84;
+}
+form{
+    padding: 15px 20px 15px 20px;
+}
+input[type="submit"]{
+    background-color: #4daea4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: #4caf84;
+}
+p.rtl {
+    direction: rtl;
+}
+footer a:hover{
+    color: yellow;
+}
+footer{
+    background-color: black; color: blanchedalmond;
+}
+.down{
+    display: inline-block;
+    color:black;
+    position: relative;
+    bottom: 40vh;
+    width: 100%;
+    
+}
+.d1{
+    font-size: 4rem ;
+    
+} 
+.d2{
+display: inline-block;
+width: 45vw;
+}
+.d3{
+    display: inline-block;
+    width: 45vw;
+}
+.d4{
+    display: inline-block;
+    width: 45vw;
+}
+.d5{
+    display: inline-block;
+    width: 45vw;
+}
+body{
+    background-color: rgb(127, 225, 255);
+    
+}
+video{
+    height: 760px;
+    width: 1330px;
+}
+@media only screen and (min-width: 412px) {
+.box{
+    height: 2vh;
+    width: 50vw;
+    right: 18vw;
+    left: 6vw;
+    bottom: 83vh;}
+}
+@media only screen and (max-width: 872px) {
+
+    .box{
+        width: 60vw;
+    }
+    
+}
+@media only screen and (max-width: 551px) {
+
+    .box{
+        width: 93vw;
+        position: relative;
+        left: 1vw;
+        height: 80vh;
+    }
+   
+}
+@media only screen and (min-width: 552px ) {
+
+    .box{
+        height: 90vh;
+        width: 70vw;
+        right: 18vw;
+        left: 7vw;
+        bottom: 80vh;
+    }
+}
+@media only screen and (min-width: 710px ) {
+
+    .box{
+        height: 87vh;
+        width: 68vw;
+        right: 18vw;
+        left: 6vw;
+        bottom: 80vh;
+    }
+}
+@media only screen and (min-width: 1080px ) {
+
+    .box{
+        height: 90vh;
+        width: 50vw;
+        right: 18vw;
+        left: 13vw;
+        bottom: 80vh;
+    }
+}
+

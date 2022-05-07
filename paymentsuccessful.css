@@ -1,0 +1,23 @@
+.d1:hover{
+    color: red;
+}
+p{
+    color: honeydew; text-align: center;
+}
+.d1{
+    font-weight: 900; font-size: x-large;
+}
+body{
+    background-color: rgb(151, 79, 219);
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+   
+    position: relative;
+    bottom: 2vh;
+    background-color: crimson; color: wheat; padding: 20px; border-color: violet; border-radius: 14px;
+}
+button:hover{
+    background-color: chartreuse; color: chocolate; cursor: pointer; 
+}

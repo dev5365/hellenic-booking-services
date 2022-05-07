@@ -1,0 +1,67 @@
+.t1{
+    color: cornflowerblue; font-size: 20px;
+}
+.t2{
+    color: crimson; font-size: 20px;
+}
+input[type="submit"]{
+    background-color: crimson; color: wheat; padding: 15px; border-color: violet; border-radius: 24px;
+}
+input[type="submit"]:hover{
+        background-color: chartreuse; color: chocolate; cursor: pointer; 
+}
+del{
+    color: crimson;
+}
+fieldset:hover{
+    border-color: red; 
+}
+.logo{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.heading{
+    font-size: 45px;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-family: Georgia, serif;
+}
+.heading:hover{
+    color: white;
+}
+body{
+    background-color:burlywood;
+}
+.hr {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 5px solid #000;
+}
+.row{
+    background-image: linear-gradient(rgb(65, 50, 19), rgb(255, 255, 255));
+    font-family: Georgia, serif;
+}
+fieldset{
+    background-color: white; color: black;
+}footer{
+    background-color: black; color: blanchedalmond;
+}
+p.rtl {
+    direction: rtl;
+}
+footer a:hover{
+    color: yellow;
+}
+div u{
+    font-size: 40px; font-style: oblique;
+}
+div b{
+    color: red;
+}
+div u {
+    color: purple;
+}
+body{
+    background-image: linear-gradient(#48afcc , #73df8c );
+}
